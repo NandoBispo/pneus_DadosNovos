@@ -1,0 +1,36 @@
+# 1. BLOQUEAR ABSOLUTAMENTE TUDO POR PADRÃO
+*
+
+# =========================================================
+# 2. LISTA BRANCA: APENAS ISSO VAI PARA O GITHUB
+# =========================================================
+
+# Arquivos essenciais de configuração do projeto
+!.gitignore
+!*.Rproj
+!README.md
+
+# Pasta com os scripts organizados e oficiais
+!scripts/
+!scripts/**
+
+# (Opcional) Se quiser permitir que outras pastas subam no futuro, 
+# basta seguir a mesma lógica, tirando o asterisco com exclamação:
+# !outputs/
+# !outputs/**
+
+# .Rproj.user
+# .Rhistory
+# .RData
+# .httr-oauth
+# .DS_Store
+# .quarto
+
+# # Ignorar PDFs e documentos de texto (sua dissertação e artigos)
+# *.pdf
+# *.docx
+# *.doc
+
+# # Ignorar pastas de rascunho e testes locais
+# rascunhos/
+# scripts_antigos/
