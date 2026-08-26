@@ -19,6 +19,9 @@
 # !outputs/
 # !outputs/**
 
+# Ignorar arquivos de sistema do Windows
+desktop.ini
+
 # .Rproj.user
 # .Rhistory
 # .RData
